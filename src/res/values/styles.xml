@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="recommend_popwindow_anim_style">
+
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <!-- 指定消失的动画xml -->
+        <item name="android:windowExitAnimation">@anim/slide_leftout_anim</item>
+    </style>
+
+</resources>
